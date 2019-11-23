@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2019-11-20 18:14:24
+/* Smarty version 3.1.34-dev-7, created on 2019-11-23 10:42:50
   from 'C:\xampp\htdocs\loja\adm\view\adm_index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5dd5acb081b3b2_87681792',
+  'unifunc' => 'content_5dd9375a969135_81591706',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '56ee9dbab1711ca502b7da58086071b9e944e44f' => 
     array (
       0 => 'C:\\xampp\\htdocs\\loja\\adm\\view\\adm_index.tpl',
-      1 => 1524147910,
+      1 => 1574516567,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5dd5acb081b3b2_87681792 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5dd9375a969135_81591706 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 
 <html>
@@ -67,18 +67,18 @@ function content_5dd5acb081b3b2_87681792 (Smarty_Internal_Template $_smarty_tpl)
     <body>
         
         <!-- começa  o container geral -->
-        <div class="container-fluid">
+        <div class="container-fluid"> 
             
             <!-- começa a div topo -->
             <div class="row" id="topo">
                  
                 
-                <div class="container">
+                <div class="container" id="container_logon">
 
-                    <div class="col-md-6">
+                   <!-- <div class="col-md-6">
                          <img src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
-/images/logo-adm.png" alt=""> 
-                    </div>
+/images/bg.png" alt=""> 
+                    </div>-->
 
                     <div class="col-md-6 text-right">
                             
@@ -178,7 +178,7 @@ function content_5dd5acb081b3b2_87681792 (Smarty_Internal_Template $_smarty_tpl)
             <!-- começa DIV conteudo-->
             <div class="row" id="conteudo">
             
-            <div class="container"> 
+            <!--<div class="container"> -->
               
                 <!-- coluna da esquerda -->
                 <div class="col-md-2" id="lateral">
@@ -260,19 +260,19 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
        
 </section>
             </div>   
-            </div><!-- fim DIV conteudo-->
+            <!--</div><!-- fim DIV conteudo-->
             
             <!-- começa div rodape -->
             <div class="row" id="rodape">
                 <center>
                     <h4><?php echo $_smarty_tpl->tpl_vars['TITULO_SITE']->value;?>
 </h4>
-                    <P>All Rights Reserved <b>Kopazzus Corporation<b> - Desenvolvido por Vinícius Manara - Data atual: <?php echo $_smarty_tpl->tpl_vars['DATA']->value;?>
+                    <P><b>Descrições<b> - Data atual: <?php echo $_smarty_tpl->tpl_vars['DATA']->value;?>
 </P>
                 </center>
             
             </div><!-- fim div rodape-->
-           </div> <!-- fim do container geral -->
+           </div> <!-- fim do container geral --> 
         
     </body>
 </html>

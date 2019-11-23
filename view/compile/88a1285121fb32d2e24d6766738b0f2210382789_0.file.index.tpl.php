@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2019-11-20 21:40:28
+/* Smarty version 3.1.34-dev-7, created on 2019-11-23 10:39:44
   from 'C:\xampp\htdocs\loja\view\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5dd5dcfcd38445_21748247',
+  'unifunc' => 'content_5dd936a0f2cea4_63224475',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '88a1285121fb32d2e24d6766738b0f2210382789' => 
     array (
       0 => 'C:\\xampp\\htdocs\\loja\\view\\index.tpl',
-      1 => 1574296789,
+      1 => 1574516382,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5dd5dcfcd38445_21748247 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5dd936a0f2cea4_63224475 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 
 <html>
@@ -67,17 +67,17 @@ function content_5dd5dcfcd38445_21748247 (Smarty_Internal_Template $_smarty_tpl)
         <div class="container-fluid">
             
             <!-- começa a div topo -->
-            <div class="row" id="topo">
+            <div class="row"  id="topo">
                  
                 
-                <div class="container">
+                <div class="container" id="container_logon">
 
-                    <div class="col-md-6">
+                    <!--<div class="col-md-6">
                          <img src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
 /images/nada.png" alt=""> 
-                    </div>
+                    </div> -->
 
-                    <div class="col-md-6 text-right">
+                    <div class=".col-md-6 text-right">
                             
                                      <br><?php if ($_smarty_tpl->tpl_vars['LOGADO']->value == true) {?>
                                       Olá: <?php echo $_smarty_tpl->tpl_vars['USER']->value;?>
@@ -161,7 +161,7 @@ function content_5dd5dcfcd38445_21748247 (Smarty_Internal_Template $_smarty_tpl)
             <!-- começa DIV conteudo-->
             <div class="row" id="conteudo">
             
-            <div class="container"> 
+            <!--<div class="container"> -->
               
                 <!-- coluna da esquerda -->
                 <div class="col-md-2" id="lateral">
